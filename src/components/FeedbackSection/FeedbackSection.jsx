@@ -3,10 +3,12 @@ import Button from "../Button/Button.jsx";
 import css from "../FeedbackSection/FeedbackSection.module.css";
 
 function StateVsRef() {
+const [value, setValue] = useState('')
+
   return (
     <div>
-      <h3>Input Value</h3>
-      <input className={css.control} type="text" />
+      <h3>Input Value: {value}</h3>
+      <input className={css.control} type="text" value={value} onChange={(e)=>setValue(e.target.value)}/>
     </div>
   );
 }
