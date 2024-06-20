@@ -1,0 +1,10 @@
+.introSection {
+    text-align: center;
+    margin: 20px;
+}
+
+.introTitle {
+    margin: 0 10px;
+    text-transform: uppercase;
+    color: rgb(33, 37, 56);
+}

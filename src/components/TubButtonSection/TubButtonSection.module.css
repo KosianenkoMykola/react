@@ -1,0 +1,8 @@
+.container > .title {
+    text-align: center;
+}
+
+.title {
+    text-transform: uppercase;
+    margin: 50px 0;
+}
